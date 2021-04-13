@@ -36,11 +36,11 @@ namespace VkAlbumDownloader
             string name = "";
             switch (AlbumId)
             {
-                case "0": name = "Profile";
+                case "0": name = "Фотографии со страницы";
                     break;
-                case "00": name = "Wall";
+                case "00": name = "Фотографии на стене";
                     break;
-                case "000": name = "Saved";
+                case "000": name = "Сохраненные фотографии";
                     break;
             }
             return name;
